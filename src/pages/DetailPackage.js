@@ -54,40 +54,12 @@ const DetailPackage = () => {
             </p>
           </div>
         </div>
-        <div class="detail__form card">
-          <h4 class="detail__form-title">Join Now</h4>
-          <form action="">
-            <div class="form__group">
-              <input
-                class="form__group-input"
-                type="text"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div class="form__group">
-              <input
-                class="form__group-input"
-                type="email"
-                placeholder="Enter your email"
-              />
-            </div>
-            <div class="form__group">
-              <textarea
-                class="form__group-textarea"
-                placeholder="Enter your message"
-                rows="5"
-              ></textarea>
-            </div>
-            <div class="form__group">
-              <button class="button button-detail">Submit</button>
-            </div>
-          </form>
-        </div>
+        
+        
       </section>
     </main>
     <Footer />
     </>
-    //
     );
 };
 
